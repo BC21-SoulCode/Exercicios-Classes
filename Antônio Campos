@@ -16,6 +16,7 @@ gatinho.infoGato();
 System.debug('🍕🍕🍕 QUESTÃO 2 🍕🍕🍕');
 
 Pizzaria pizza = new Pizzaria();
+
 pizza.pedir('Calabresa');
 pizza.pedir('4 Queijos');
 pizza.pedir('Maria Bonita');
@@ -23,6 +24,7 @@ pizza.pedir('Cogumelo');
 
 // 3
 System.debug('🧠🧠🧠️ QUESTÃO 3 🧠🧠🧠');
+
 CalculadoraMagica calculadora = new CalculadoraMagica();
 System.debug(calculadora.somar(2, 2)); // 4
 System.debug(calculadora.subtrair(6, 2)); // 4
@@ -39,7 +41,8 @@ System.debug(calculadora.media(5, 15)); // 10
 🐈 CLASSE GATO 🐈
 
 public class Gato {
-	public string nome, raca;
+
+    public string nome, raca;
     public decimal peso;
     
     public void miar(){
