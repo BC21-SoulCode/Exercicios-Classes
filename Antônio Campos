@@ -26,6 +26,7 @@ pizza.pedir('Cogumelo');
 System.debug('🧠🧠🧠️ QUESTÃO 3 🧠🧠🧠');
 
 CalculadoraMagica calculadora = new CalculadoraMagica();
+
 System.debug(calculadora.somar(2, 2)); // 4
 System.debug(calculadora.subtrair(6, 2)); // 4
 System.debug(calculadora.dividir(6, 3)); // 2
